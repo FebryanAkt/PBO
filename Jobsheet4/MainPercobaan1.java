@@ -2,7 +2,7 @@
 public class MainPercobaan1 {
     public static void main(String[] args) {
         Processor p = new Processor("Intel i5", 3);
-        Laptop L = new Laptop("Thinkpad", p);
+        Laptop L = new Laptop("Thinkpad", new Processor("Intel i5", 3));
 
         L.info();
         Processor p1 = new Processor();

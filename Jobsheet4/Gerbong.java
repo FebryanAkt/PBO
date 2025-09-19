@@ -32,7 +32,12 @@ public class Gerbong {
         }
         return info;
     }
-    public void setPenumpang(Penumpang penumpang, int nomor){
-        this.arrayKursi[nomor - 1].setPenumpang(penumpang);
+    public void setPenumpang(Penumpang penumpang, int nomor) {
+        if (arrayKursi[nomor - 1].getPenumpang() == null) {
+            arrayKursi[nomor - 1].setPenumpang(penumpang);
+        } else {
+            System.out.println("Kursi nomor " + nomor + " sudah ditempati penumpang lain!");
+        }
     }
+    
 }
