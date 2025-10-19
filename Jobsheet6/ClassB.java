@@ -6,5 +6,5 @@ public class ClassB extends ClassA{
     }
     public void getJumlah(){
         System.out.println("Jumlah: " + (x+y+z));
-    }
+       }
 }
