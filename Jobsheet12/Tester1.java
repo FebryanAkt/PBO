@@ -11,5 +11,8 @@ public class Tester1 {
         e = iEMP;
         p = pEMP;
         p = eBill;
+
+        // p = iEMP;
+        // e = eBill;
     }
 }
